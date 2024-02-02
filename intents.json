@@ -1,0 +1,167 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello there",
+                "Greetings",
+                "Good day to you",
+                "Hi, how can I assist you today?",
+                "Is there anything I can help you with?",
+                "Hello, it's nice to see you again",
+                "Hey, what's up?",
+                "Warm greetings"
+            ],
+            "responses": [
+                "Hello!",
+                "Welcome back!",
+                "Hi there, how may I assist you?",
+                "Good to see you again!",
+                "Hello, how can I help you today?",
+                "Greetings! How may I be of service?",
+                "Hey! What brings you here?",
+                "Hello, it's a pleasure to assist you."
+            ],
+            "context_set": "greeting_context"
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye for now",
+                "Farewell",
+                "Until we meet again",
+                "Take care",
+                "I must be going",
+                "It's time to say goodbye",
+                "See you later, alligator",
+                "Wishing you a great day ahead"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Until next time!",
+                "Take care and talk to you later.",
+                "Goodbye! Have a wonderful day.",
+                "Farewell! It was a pleasure assisting you.",
+                "See you later, alligator!",
+                "Leaving already? Take care!",
+                "Wishing you a great day ahead!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "programming",
+            "patterns": [
+                "Explain programming to me",
+                "Define coding",
+                "I want to understand software development",
+                "Tell me about the basics of programming",
+                "Elaborate on coding concepts",
+                "What does software development involve?"
+            ],
+            "responses": [
+                "Programming, coding, or software development involves writing code to create software applications and automate tasks.",
+                "In the realm of coding, programming, and software development, one writes code to instruct computers and create applications.",
+                "Software development encompasses the process of creating and maintaining software through coding and programming.",
+                "Programming is the art of instructing computers through code to perform specific tasks, and it's a fundamental part of software development.",
+                "Coding and programming are essential skills in software development, allowing the creation of applications and automation of processes."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "resource",
+            "patterns": [
+                "Suggest coding learning platforms",
+                "Where can I find quality programming tutorials?",
+                "Recommend resources for learning programming",
+                "Best online coding courses",
+                "Share top programming learning websites"
+            ],
+            "responses": [
+                "Explore the NeuralNine YouTube channel for insightful tutorials, and consider The Python Bible series (7 in 1) for comprehensive learning.",
+                "For quality programming tutorials, check out the NeuralNine YouTube channel and dive into The Python Bible series (7 in 1).",
+                "Discover excellent coding resources by exploring the NeuralNine YouTube channel and delving into The Python Bible series (7 in 1).",
+                "Looking for top-notch programming courses? Check out the NeuralNine YouTube channel and explore The Python Bible series (7 in 1).",
+                "For the best online coding courses, consider the NeuralNine YouTube channel and The Python Bible series (7 in 1) for a comprehensive learning experience."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "stocks",
+            "patterns": [
+                "Provide an overview of my stock portfolio",
+                "What stocks do I currently own?",
+                "Can you list my investment holdings?",
+                "Show me details of my stocks",
+                "Give me information about my stock investments"
+            ],
+            "responses": [
+                "Here is an overview of your current stock portfolio.",
+                "Sure, let me provide you with details about the stocks you own.",
+                "I will list your current investment holdings in various stocks.",
+                "Showing you the details of your stock portfolio.",
+                "Certainly, let me give you information about your stock investments."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ai",
+            "patterns": [
+                "Explain artificial intelligence",
+                "What is AI?",
+                "Tell me about machine learning",
+                "Discuss the role of AI in today's world",
+                "How does natural language processing work?",
+                "Elaborate on the future of artificial intelligence"
+            ],
+            "responses": [
+                "Artificial Intelligence (AI) is the simulation of human intelligence in machines that are programmed to think and learn.",
+                "AI encompasses various technologies, including machine learning and natural language processing, to mimic human intelligence.",
+                "Machine learning is a subset of AI that enables systems to learn and improve from experience without explicit programming.",
+                "In today's world, AI plays a crucial role in automating tasks, making predictions, and solving complex problems across industries.",
+                "Natural Language Processing (NLP) is a branch of AI that focuses on enabling machines to understand, interpret, and generate human-like language.",
+                "The future of artificial intelligence holds immense potential for advancements in healthcare, finance, robotics, and more."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ai_applications",
+            "patterns": [
+                "How is AI used in healthcare?",
+                "Discuss AI applications in finance",
+                "Explore the role of AI in autonomous vehicles",
+                "Tell me about AI in customer service",
+                "What are the applications of AI in cybersecurity?",
+                "Explain AI's role in natural language processing applications"
+            ],
+            "responses": [
+                "In healthcare, AI is used for diagnosis, personalized treatment plans, and drug discovery to improve patient outcomes.",
+                "AI applications in finance include fraud detection, algorithmic trading, and customer service chatbots for better user experience.",
+                "Autonomous vehicles leverage AI for navigation, object recognition, and decision-making to enhance safety and efficiency.",
+                "AI enhances customer service through virtual assistants, chatbots, and personalized recommendations for improved customer satisfaction.",
+                "In cybersecurity, AI is utilized for threat detection, anomaly detection, and proactive defense measures against cyber attacks.",
+                "Natural Language Processing applications of AI include voice recognition, language translation, and sentiment analysis for improved communication and understanding."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ai_ethics",
+            "patterns": [
+                "Discuss the ethical considerations in AI",
+                "What are the challenges of AI ethics?",
+                "Explain bias in AI algorithms",
+                "How can we ensure responsible AI development?",
+                "Talk about transparency in AI decision-making",
+                "Address the impact of AI on privacy"
+            ],
+            "responses": [
+                "AI ethics involves addressing moral and societal concerns related to the development and deployment of artificial intelligence.",
+                "Challenges in AI ethics include bias, accountability, transparency, and the potential impact on employment and societal structures.",
+                "Bias in AI algorithms refers to the unfair or unbalanced treatment of certain groups due to the data used to train the models.",
+                "Ensuring responsible AI development involves transparency, accountability, and a focus on minimizing biases and potential negative impacts.",
+                "Transparency in AI decision-making is crucial for building trust, understanding outcomes, and ensuring fairness in algorithmic processes.",
+                "The impact of AI on privacy raises concerns regarding data collection, surveillance, and the responsible use of personal information in AI applications."
+            ],
+            "context_set": ""
+        }
+    ]
+}
